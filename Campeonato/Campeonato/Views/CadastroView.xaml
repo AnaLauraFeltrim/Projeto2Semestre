@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Campeonato.Views.CadastroView">
+    <ContentPage.Content>
+        <StackLayout
+            Padding="20"
+            Spacing="20"
+            >
+            <Image Source="app_logo.png" 
+                   WidthRequest="250" 
+                   Margin="100,70,100,0"
+            />
+
+            <Grid Margin="30,20,0,0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="40*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image 
+                    Source="baseline_person_black_48dp.png" 
+                    Grid.Row="0"
+                    Grid.Column="0"
+                />
+                <Image 
+                    Source="baseline_person_black_48dp.png"
+                    Grid.Row="1" 
+                    Grid.Column="0"
+                />
+                <Image 
+                    Source="baseline_email_black_48dp.png"
+                    Grid.Row="2" 
+                    Grid.Column="0"
+                />
+                <Image 
+                    Source="baseline_lock_black_48dp.png"
+                    Grid.Row="3" 
+                    Grid.Column="0"
+                />
+                <Entry 
+                    Placeholder="Nome*" 
+                    Grid.Row="0" 
+                    Grid.Column="1" 
+                    Grid.ColumnSpan="2" 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="FillAndExpand"
+                    IsPassword="True" 
+                    Margin="0,0,50,0"
+                />
+                <Entry 
+                    Placeholder="Apelido*" 
+                    Grid.Row="1" 
+                    Grid.Column="1" 
+                    Grid.ColumnSpan="2" 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="FillAndExpand"
+                    Margin="0,0,50,0"
+                />
+                <Entry 
+                    Placeholder="E-Mail*" 
+                    Grid.Row="2" 
+                    Grid.Column="1" 
+                    Grid.ColumnSpan="2" 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="FillAndExpand"
+                    IsPassword="True" 
+                    Margin="0,0,50,0"/>
+                <Entry 
+                    Placeholder="Senha*" 
+                    Grid.Row="3" 
+                    Grid.Column="1" 
+                    Grid.ColumnSpan="2" 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="FillAndExpand"
+                    IsPassword="True" 
+                    Margin="0,0,50,0"/>
+                
+            </Grid>
+
+            <Button 
+                    Text="Cadastrar-se" 
+                    BackgroundColor="#03A65A" 
+                    TextColor="White" 
+                    CornerRadius="10" 
+                    Margin="100,0,100,0" />
+
+            <Button 
+                Clicked="btnLogin_Clicked"
+               Text="Login"
+               TextColor="#34A0CB"
+               FontSize="17"
+               BackgroundColor="Transparent"
+               VerticalOptions="EndAndExpand"
+             />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

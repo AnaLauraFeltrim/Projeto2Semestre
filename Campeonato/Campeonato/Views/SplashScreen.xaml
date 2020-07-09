@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Campeonato.Views.SplashScreen">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image
+                Source="app_logo.png" Margin="10,200,0,10"
+                WidthRequest="200"
+            />
+                    <Label  
+                        Text="Campeonato mundial FIFA 20"
+                        FontSize="20"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+            
+            <StackLayout 
+                         Orientation="Horizontal"
+                         VerticalOptions="CenterAndExpand"
+                         Margin="0,150,20,25" >
+                
+                <Label  Text="Realização"
+                    FontSize="20"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    Margin="0,0,30,0"/>
+                
+            <Label  Text="Apoio"
+                    FontSize="20"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout 
+                Orientation="Horizontal" 
+                VerticalOptions="CenterAndExpand" 
+                Margin="40,-70,-50,50" 
+                Spacing="55">
+                
+                <Image
+                Source="fifa_logo.png"
+                WidthRequest="120"
+                Margin="0,0,0,0"
+            />
+                <Image
+                Source="WS_Towers.png"
+                WidthRequest="150"
+                    Margin="0,0,0,0"
+            />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
