@@ -1,0 +1,8 @@
+C:\Users\nsilv\Desktop\Projeto2Semestre\Jogos\Jogos\obj\Debug\netstandard2.0\Jogos.csprojAssemblyReference.cache
+C:\Users\nsilv\Desktop\Projeto2Semestre\Jogos\Jogos\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\nsilv\Desktop\Projeto2Semestre\Jogos\Jogos\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\nsilv\Desktop\Projeto2Semestre\Jogos\Jogos\obj\Debug\netstandard2.0\Views\Jogos.xaml.g.cs
+C:\Users\nsilv\Desktop\Projeto2Semestre\Jogos\Jogos\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Users\nsilv\Desktop\Projeto2Semestre\Jogos\Jogos\obj\Debug\netstandard2.0\Jogos.AssemblyInfoInputs.cache
+C:\Users\nsilv\Desktop\Projeto2Semestre\Jogos\Jogos\obj\Debug\netstandard2.0\Jogos.AssemblyInfo.cs
+C:\Users\nsilv\Desktop\Projeto2Semestre\Jogos\Jogos\obj\Debug\netstandard2.0\Jogos.csproj.CoreCompileInputs.cache

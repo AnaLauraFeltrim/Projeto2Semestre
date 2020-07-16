@@ -1,0 +1,16 @@
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\bin\Debug\netstandard2.0\WSTowers.deps.json
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\bin\Debug\netstandard2.0\WSTowers.dll
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\bin\Debug\netstandard2.0\ref\WSTowers.dll
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\bin\Debug\netstandard2.0\WSTowers.pdb
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.csprojAssemblyReference.cache
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.AssemblyInfoInputs.cache
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.AssemblyInfo.cs
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.csproj.CoreCompileInputs.cache
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.dll
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\ref\WSTowers.dll
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.pdb
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\CadastroView.xaml.g.cs
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs

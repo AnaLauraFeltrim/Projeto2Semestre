@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dVqIx5lzRp0z5Uyr/SHGg0z3sAdy7eQ7+QPZvLN7CIsr0X87LWRzOe6F0vRUzM7+Wd9y09p72X9blOD7jCbHow==",
+  "dgSpecHash": "v1fnyrOoaQSJga96r0rIPizUDcj2JK2kix8HJQPOIVpzbl8fmIEuSwotiAj4NsK70kDeyX92vLqygBvn1LnTMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projetos para entregar\\JogosApp\\Jogos\\Jogos\\Jogos.csproj",
+  "projectFilePath": "C:\\Users\\nsilv\\Desktop\\Projeto2Semestre\\Jogos\\Jogos\\Jogos.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\nsilv\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
   ],
