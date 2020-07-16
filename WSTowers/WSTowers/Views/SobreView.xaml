@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WSTowers.Views.SobreView">
+    <ContentPage.Content>
+        <StackLayout
+            Padding="20"
+            Spacing="20"
+            BackgroundColor="#363636"
+            >
+            <Image Source="WS_Towers.png" 
+                   WidthRequest="250" 
+                   Margin="50,160,50,0"
+            />
+            <label text="A WSTowers, é uma empresa tradicional no ramo de gestão esportivo, que vem revolucionando o mercado de entretenimento. 
+                   Além disso, é referência no âmbito nacional, certificada com o Selo de Qualidade ABEOC Brasil (Associação Brasileira de Empresas de Eventos) e diversas premiações em sua história.
+                   A expertise de realizar eventos com equipes especializadas, alto índice de satisfação dos clientes, só mostram a importância da WSTowers na sociedade.">
+            </label>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
