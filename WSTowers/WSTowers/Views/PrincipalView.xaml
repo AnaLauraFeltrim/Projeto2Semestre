@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WSTowers.Views.PrincipalView">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView ItemsSource="{Binding Jogo}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+
+                        <StackLayout
+                                Orientation="Horizontal"
+                                >
+                            <Image Source="Sao_Paulo.png"/>
+                            <Label
+                                    Text="{Binding timeCasa}"
+                                    HorizontalOptions="StartAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                />
+                            <Label
+                                    Text="X"
+                                    HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                />
+                            <Label
+                                    Text="{Binding timeVisitante}"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                />
+                            <Image Source="goias.png"/>
+                        </StackLayout>
+
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
