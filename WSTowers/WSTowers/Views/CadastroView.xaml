@@ -6,10 +6,63 @@
              mc:Ignorable="d"
              x:Class="WSTowers.Views.CadastroView">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout
+            BackgroundColor="#363636"
+            Padding="20"
+            Spacing="20"
+            >
+            <Image Source="WS_Towers.png" 
+                   WidthRequest="250" 
+                   Margin="50,160,50,0"
+            />
+
+            <Entry 
+                    Placeholder="Nome" 
+                    PlaceholderColor="#c2c2c2" 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="FillAndExpand"
+                    IsPassword="True" 
+                    Margin="50,20,50,0"
+                />
+            <Entry 
+                    Placeholder="Apelido"
+                    PlaceholderColor="#c2c2c2" 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="FillAndExpand"
+                    Margin="50,20,50,0"
+                />
+            <Entry 
+                    Placeholder="E-Mail" 
+                    PlaceholderColor="#c2c2c2"  
+                    VerticalOptions="Center" 
+                    HorizontalOptions="FillAndExpand"
+                    IsPassword="True" 
+                    Margin="50,20,50,0"
+                />
+            <Entry 
+                    Placeholder="Senha" 
+                    PlaceholderColor="#c2c2c2" 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="FillAndExpand"
+                    IsPassword="True" 
+                    Margin="50,20,50,0"
+                />
+
+            <Button 
+                    Text="Cadastrar-se" 
+                    BackgroundColor="#8a05be" 
+                    TextColor="#eaeaea" 
+                    CornerRadius="10" 
+                    Margin="100,0,100,0"
+                />
+
+            <Button 
+               Text="Login"
+               TextColor="#34A0CB"
+               FontSize="17"
+               BackgroundColor="Transparent"
+               VerticalOptions="EndAndExpand"
+             />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

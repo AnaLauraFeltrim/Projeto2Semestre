@@ -11,7 +11,7 @@ namespace WSTowers
         {
             InitializeComponent();
 
-            MainPage = new LoginView();
+            MainPage = new SplashScreen();
         }
 
         protected override void OnStart()

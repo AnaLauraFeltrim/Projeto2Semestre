@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projetos para entregar\\pasta\\Projeto2Semestre\\WSTowers\\WSTowers\\WSTowers.csproj": {}
+    "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers\\WSTowers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projetos para entregar\\pasta\\Projeto2Semestre\\WSTowers\\WSTowers\\WSTowers.csproj": {
+    "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers\\WSTowers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projetos para entregar\\pasta\\Projeto2Semestre\\WSTowers\\WSTowers\\WSTowers.csproj",
+        "projectUniqueName": "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers\\WSTowers.csproj",
         "projectName": "WSTowers",
-        "projectPath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projetos para entregar\\pasta\\Projeto2Semestre\\WSTowers\\WSTowers\\WSTowers.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projetos para entregar\\pasta\\Projeto2Semestre\\WSTowers\\WSTowers\\obj\\",
+        "projectPath": "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers\\WSTowers.csproj",
+        "packagesPath": "C:\\Users\\nsilv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nsilv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -67,7 +68,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

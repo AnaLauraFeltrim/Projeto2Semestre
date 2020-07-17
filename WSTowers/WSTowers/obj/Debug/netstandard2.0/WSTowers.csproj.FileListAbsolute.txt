@@ -14,3 +14,6 @@ C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\ref\WSTow
 C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\WSTowers.pdb
 C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\CadastroView.xaml.g.cs
 C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\PrincipalView.xaml.g.cs
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\SobreView.xaml.g.cs
+C:\Users\nsilv\source\repos\WSTowers\WSTowers\obj\Debug\netstandard2.0\Views\SplashScreen.xaml.g.cs

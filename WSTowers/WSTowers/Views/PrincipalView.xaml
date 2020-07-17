@@ -7,37 +7,9 @@
              x:Class="WSTowers.Views.PrincipalView">
     <ContentPage.Content>
         <StackLayout>
-            <ListView ItemsSource="{Binding Jogo}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-
-                        <StackLayout
-                                Orientation="Horizontal"
-                                >
-                            <Image Source="Sao_Paulo.png"/>
-                            <Label
-                                    Text="{Binding timeCasa}"
-                                    HorizontalOptions="StartAndExpand"
-                                    VerticalOptions="CenterAndExpand"
-                                />
-                            <Label
-                                    Text="X"
-                                    HorizontalOptions="CenterAndExpand"
-                                    VerticalOptions="CenterAndExpand"
-                                />
-                            <Label
-                                    Text="{Binding timeVisitante}"
-                                    HorizontalOptions="EndAndExpand"
-                                    VerticalOptions="CenterAndExpand"
-                                />
-                            <Image Source="goias.png"/>
-                        </StackLayout>
-
-
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-
-            </ListView>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

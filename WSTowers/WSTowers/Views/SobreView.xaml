@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+ï»¿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
@@ -9,16 +9,18 @@
         <StackLayout
             Padding="20"
             Spacing="20"
-            BackgroundColor="#363636"
-            >
+            BackgroundColor="#363636">
+
             <Image Source="WS_Towers.png" 
                    WidthRequest="250" 
                    Margin="50,160,50,0"
             />
-            <label text="A WSTowers, é uma empresa tradicional no ramo de gestão esportivo, que vem revolucionando o mercado de entretenimento. 
-                   Além disso, é referência no âmbito nacional, certificada com o Selo de Qualidade ABEOC Brasil (Associação Brasileira de Empresas de Eventos) e diversas premiações em sua história.
-                   A expertise de realizar eventos com equipes especializadas, alto índice de satisfação dos clientes, só mostram a importância da WSTowers na sociedade.">
-            </label>
-            </StackLayout>
+            <Label 
+                TextColor="White"
+                Text="       A WSTowers, Ã© uma empresa tradicional no ramo de gestÃ£o esportivo, que vem revolucionando o mercado de entretenimento. AlÃ©m disso, Ã© referÃªncia no Ã¢mbito nacional, certificada com o Selo de Qualidade ABEOC Brasil (AssociaÃ§Ã£o Brasileira de Empresas de Eventos) e diversas premiaÃ§Ãµes em sua histÃ³ria. A expertise de realizar eventos com equipes especializadas, alto Ã­ndice de satisfaÃ§Ã£o dos clientes, sÃ³ mostram a importÃ¢ncia da WSTowers na sociedade."
+                XAlign="Center"
+                FontSize="20"
+                />
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1969,24 +1969,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\nsilv\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projetos para entregar\\pasta\\Projeto2Semestre\\WSTowers\\WSTowers.Android\\WSTowers.Android.csproj",
+      "projectUniqueName": "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers.Android\\WSTowers.Android.csproj",
       "projectName": "WSTowers.Android",
-      "projectPath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projetos para entregar\\pasta\\Projeto2Semestre\\WSTowers\\WSTowers.Android\\WSTowers.Android.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projetos para entregar\\pasta\\Projeto2Semestre\\WSTowers\\WSTowers.Android\\obj\\",
+      "projectPath": "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers.Android\\WSTowers.Android.csproj",
+      "packagesPath": "C:\\Users\\nsilv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nsilv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2000,8 +2000,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projetos para entregar\\pasta\\Projeto2Semestre\\WSTowers\\WSTowers\\WSTowers.csproj": {
-              "projectPath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Projetos para entregar\\pasta\\Projeto2Semestre\\WSTowers\\WSTowers\\WSTowers.csproj"
+            "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers\\WSTowers.csproj": {
+              "projectPath": "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers\\WSTowers.csproj"
             }
           }
         }

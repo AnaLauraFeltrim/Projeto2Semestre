@@ -16,14 +16,14 @@
                    Margin="50,160,50,0"
             />
 
-                <Entry 
-                    Placeholder="Usuário ou E-mail" PlaceholderColor="#eaeaea" 
+            <Entry 
+                    Placeholder="Usuário ou E-mail" PlaceholderColor="#c2c2c2" 
                     VerticalOptions="Center" 
                     HorizontalOptions="FillAndExpand"
                     Margin="50,20,50,0"
                 />
-                <Entry 
-                    Placeholder="Senha" PlaceholderColor="#eaeaea" 
+            <Entry 
+                    Placeholder="Senha" PlaceholderColor="#c2c2c2" 
                     VerticalOptions="Center" 
                     HorizontalOptions="FillAndExpand"
                     IsPassword="True" 
