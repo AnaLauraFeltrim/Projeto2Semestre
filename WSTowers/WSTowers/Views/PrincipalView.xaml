@@ -4,6 +4,22 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="WSTowers.Views.PrincipalView">
+    
+    <ContentView.Resource>
+        <Resource.Dictionary>
+            <!--StackLayout-->
+            <Orientation x key="StackLayoutOrient">"Horizontal"</Orientation>
+            <!--Image-->
+            <Source x:key="ImageSPFCSour">"LogoSaoPaulo.png"</Source>
+            <Source x:key="ImageGECSour">"LogoGoias.png"</Source>
+            <!--Label-->
+            <HorizontalOptions x key="LabelCasaHorizOptions">"StartAndExpand"</HorizontalOptions>
+            <HorizontalOptions x key="LabelVSHorizOptions">"CenterAndExpand"</HorizontalOptions>
+            <HorizontalOptions x key="LabelVisitanteHorizOptions">"EndAndExpand"</HorizontalOptions>
+            <VerticalOptons x key="LabelVertOptions">CenterAndExpand</VerticalOptons>
+        </Resource.Dictionary>
+    </ContentView.Resource>
+    
     <ContentPage.Content>
         <StackLayout>
             <ListView ItemsSource="{Binding Jogos}">
@@ -11,27 +27,28 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout
-                                Orientation="Horizontal"
+                                Orientation= "{StaticResource StackLayoutOrient}"
                                 >
-                                <Image Source="LogoSaoPaulo.png"/>
+                                <Image 
+                                    Source="{StaticResource ImageSPFCSour}"
                                 <Label
                                     Text="{Binding timeCasa}"
-                                    HorizontalOptions="StartAndExpand"
-                                    VerticalOptions="CenterAndExpand"
+                                    HorizontalOptions="{StaticResource LabelCasaHorizOptions}"
+                                    VerticalOptions="{StaticResource LabelVertOptions}"
                                 />
-                                
                                 <Label
                                     Text="X"
-                                    HorizontalOptions="CenterAndExpand"
-                                    VerticalOptions="CenterAndExpand"
+                                    HorizontalOptions="{StaticResource LabelVSHorizOptions}"
+                                    VerticalOptions="{StaticResource LabelVertOptions}"
                                 />
                                 
                                 <Label
                                     Text="{Binding timeVisitante}"
-                                    HorizontalOptions="EndAndExpand"
-                                    VerticalOptions="CenterAndExpand"
+                                    HorizontalOptions="{StaticResource LabelVisitanteHorizOptions}"
+                                    VerticalOptions="{StaticResource LabelVertOptions}"
                                 />
-                                <Image Source="LogoGoias.png"/>
+                                <Image 
+                                    Source="{StaticResource ImageGECSour}"
                             </StackLayout>
 
                         </ViewCell>

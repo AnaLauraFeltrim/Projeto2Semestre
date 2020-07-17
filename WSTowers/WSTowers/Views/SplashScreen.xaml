@@ -5,18 +5,35 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="WSTowers.Views.SplashScreen">
+    
+    <ContentView.Resource>
+        <Resource.Dictionary>
+            <!--StackLayout-->
+            <BackgroundColor x:key="StackLayoutBgColor">"#363636"</BackgroundColor>
+             <!--Image-->
+            <Source x:key="ImageSour">"WS_Towers.png"</Source>
+            <WidthRequest x:key="ImageWidthReq">"250"</WidthRequest>
+            <Margin x key="ImageMarg">"100,310,100,30"</Margin>
+            <!--ActivityIndicator-->
+            <IsRunning x:key="ActivIndiIsRunning">"true"</IsRunning>
+            <Color x:key="ActivIndiColor">"Snow"</Color>
+            
+        </Resource.Dictionary>
+    </ContentView.Resource>
+    
     <ContentPage.Content>
         <StackLayout
-            BackgroundColor="#363636">
+            BackgroundColor="{StaticResource StackLayoutBgColor}"
+            >
             <Image
-                Source="WS_Towers.png" 
-                Margin="100,310,100,30"
-                WidthRequest="250"
+            Source="{StaticResource ImageSour}"
+            WidthRequest="{StaticResource ImageWidthReq}" 
+            Margin="{StaticResource ImageMarg}"
             />
             <ActivityIndicator 
-                IsRunning="true"
-                Color="Snow"
-                />
+                IsRunning="{StaticResource ActivIndiIsRunning}"
+                Color="{StaticResource ActivIndiColor}"
+             />
 
         </StackLayout>
     </ContentPage.Content>

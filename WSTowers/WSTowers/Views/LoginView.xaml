@@ -5,43 +5,76 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="WSTowers.Views.LoginView">
+    
+    <ContentView.Resource>
+        <Resource.Dictionary>
+            <!--StackLayout-->
+            <BackgroundColor x:key="StackLayoutBgColor">"#363636"</BackgroundColor>
+            <Padding x:key="StackLayoutPadd">"20"</Padding>
+            <spacing x:key="StackLayoutSpac">"20"</spacing>
+            <!--Image-->
+            <Source x:key="ImageSour">"WS_Towers.png"</Source>
+            <WidthRequest x:key="ImageWidthReq">"250"</WidthRequest>
+            <Margin x key="ImageMarg">"50,160,50,0"</Margin>
+            <!--Entry-->
+            <PlaceholderColor x:key="EntryPhColor">"#c2c2c2"</PlaceholderColor>
+            <VerticalOptions x key="EntryVertOptions">"Center"</VerticalOptions>
+            <HorizontalOptions x key="EntryHorizOptions">"FillAndExpand"</HorizontalOptions>
+            <Margin x key="EntryMarg">"50,20,50,0"</Margin>
+            <IsPassword x key="EntryIsPass">True</IsPassword>
+            <!--Button1 (Entrar)-->
+            <BackgroundColor x:key="Button1BgColor">"#8a05be"</BackgroundColor>
+            <TextColor x:key="Button1TxtColor">"White"</TextColor>
+            <CornerRadius  x:key="Button1CornRad">10</CornerRadius>
+            <Margin x key="Button1Marg">"115,0,115,0"</Margin>
+            <!--Button 2 (Cadastrar-se)-->
+            <TextColor x:key="Button2TxtColor">"#34A0CB"</TextColor>
+            <FontSize  x:key="Button2FntSiz">"17"</FontSize>
+            <BackgroundColor x:key="Button2BgColor">"Transparent"</BackgroundColor>
+            <VerticalOptions x key="Button2VertOptions">"EndAndExpand"</VerticalOptions>
+        
+        </Resource.Dictionary>
+    </ContentView.Resource>
+    
     <ContentPage.Content>
         <StackLayout
-            Padding="20"
-            Spacing="20"
-            BackgroundColor="#363636"
+            BackgroundColor="{StaticResource StackLayoutBgColor}"
+            Padding="{StaticResource StackLayoutPadd}"
+            Spacing="{StaticResource StackLayoutSpac}"
             >
-            <Image Source="WS_Towers.png" 
-                   WidthRequest="250" 
-                   Margin="50,160,50,0"
+            <Image Source="{StaticResource ImageSour}"
+                   WidthRequest="{StaticResource ImageWidthReq}" 
+                   Margin="{StaticResource ImageMarg}"
             />
 
             <Entry 
-                    Placeholder="Usuário ou E-mail" PlaceholderColor="#c2c2c2" 
-                    VerticalOptions="Center" 
-                    HorizontalOptions="FillAndExpand"
-                    Margin="50,20,50,0"
+                    Placeholder="Usuário ou E-mail" 
+                    PlaceholderColor="{StaticResource PhColor}"
+                    VerticalOptions="{StaticResource VertOptions}" 
+                    HorizontalOptions="{StaticResource EntryHorizOptions}"
+                    Margin="{StaticResource EntryMarg}"
                 />
             <Entry 
-                    Placeholder="Senha" PlaceholderColor="#c2c2c2" 
-                    VerticalOptions="Center" 
-                    HorizontalOptions="FillAndExpand"
-                    IsPassword="True" 
-                    Margin="50,0,50,0"
+                    Placeholder="Senha" 
+                    PlaceholderColor="{StaticResource PhColor}" 
+                    VerticalOptions="{StaticResource VertOptions}" 
+                    HorizontalOptions="{StaticResource EntryHorizOptions}"
+                    IsPassword="{StaticResource EntryIsPass}"
+                    Margin="{StaticResource EntryMarg}"
                 />
             <Button 
                     Text="Entrar" 
-                    BackgroundColor="#8a05be" 
-                    TextColor="White" 
-                    CornerRadius="10" 
-                    Margin="115,0,115,0" />
+                    BackgroundColor="{StaticResource Button1BgColor}" 
+                    TextColor="{StaticResource Button1TxtColor}"
+                    CornerRadius="{StaticResource Button1CornRad}" 
+                    Margin="{StaticResource Button1Marg}"
 
             <Button 
                Text="Cadastre-se"
-               TextColor="#34A0CB"
-               FontSize="17"
-               BackgroundColor="Transparent"
-               VerticalOptions="EndAndExpand"
+               TextColor="{StaticResource Button2TxtColor}"
+               FontSize="{StaticResource Button2FntSiz}"
+               BackgroundColor="{StaticResource Button2BgColor}"
+               VerticalOptions="{StaticResource Button2VertOptions}"
              />
         </StackLayout>
     </ContentPage.Content>

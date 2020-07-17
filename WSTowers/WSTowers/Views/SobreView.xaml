@@ -5,11 +5,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="WSTowers.Views.SobreView">
+    
+    <ContentView.Resource>
+        <Resource.Dictionary>
+            <!--StackLayout-->
+            <BackgroundColor x:key="StackLayoutBgColor">"#363636"</BackgroundColor>
+            <Padding x:key="StackLayoutPadd">"20"</Padding>
+            <spacing x:key="StackLayoutSpac">"20"</spacing>
+            
+        </Resource.Dictionary>
+    </ContentView.Resource>
+    
     <ContentPage.Content>
         <StackLayout
             Padding="20"
             Spacing="20"
-            BackgroundColor="#363636">
+            BackgroundColor="{StaticResource StackLayoutBgColor}"
+            >
 
             <Image Source="WS_Towers.png" 
                    WidthRequest="250" 
