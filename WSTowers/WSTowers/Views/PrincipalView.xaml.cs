@@ -34,7 +34,7 @@ namespace WSTowers.Views
                 idJogo = 2,
                 timeCasa = "Flamengo",
                 timeVisitante = "Atlético-MG",
-                data = Convert.ToDateTime("07/07/2020"),
+                data = Convert.ToDateTime("09/08/2020"),
                
 
             });
