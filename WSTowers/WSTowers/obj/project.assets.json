@@ -68,7 +68,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -603,25 +603,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nsilv\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gusta\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers\\WSTowers.csproj",
+      "projectUniqueName": "C:\\Users\\gusta\\Documents\\Ana\\PASTA DE FAZER OS BAGULHO\\Projeto2Semestre\\WSTowers\\WSTowers\\WSTowers.csproj",
       "projectName": "WSTowers",
-      "projectPath": "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers\\WSTowers.csproj",
-      "packagesPath": "C:\\Users\\nsilv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nsilv\\source\\repos\\WSTowers\\WSTowers\\obj\\",
+      "projectPath": "C:\\Users\\gusta\\Documents\\Ana\\PASTA DE FAZER OS BAGULHO\\Projeto2Semestre\\WSTowers\\WSTowers\\WSTowers.csproj",
+      "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gusta\\Documents\\Ana\\PASTA DE FAZER OS BAGULHO\\Projeto2Semestre\\WSTowers\\WSTowers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\nsilv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -671,7 +669,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
